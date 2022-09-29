@@ -1,0 +1,19 @@
+iniciar main
+criar inteiro tamanho
+pedir tamanho
+se (tamanho é menor que 1) ou (tamanho é maior que 8)
+    falar "tamanho invalido"
+se nao
+    funcaoHashes
+fechar main
+
+iniciar funcaoHashes(inteiro):
+    criar inteiro hash = 0;
+    iniciar loop for
+        criar inteiro i=1 , enquanto i for menor/igual a tamanho, executar i = i + 1
+        hash = inteiro
+        iniciar loop while
+            enquanto hash for menor que tamanho
+            escrever tamanho
+    fechar loop for
+fechar funcaoHashes
