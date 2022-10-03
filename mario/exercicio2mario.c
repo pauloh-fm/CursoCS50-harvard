@@ -8,11 +8,19 @@ for (int i = 1; i <= tam; i++)
 {
     hash = i;
     v = tam - hash;
-    while (v)
+    // Imprimindo a primeira parte dos hashs
+     while (v)
     {
         printf("%c",32); // em ASCII " " = 32 (decimal)
         v--;
     }
+    while (hash)
+    {
+        printf("%c",35); // em ASCII "#" = 35 (decimal)
+        hash--;
+    }
+    hash = i;
+    printf("%c",32);
     while (hash)
     {
         printf("%c",35); // em ASCII "#" = 35 (decimal)
